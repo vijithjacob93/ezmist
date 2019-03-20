@@ -47,5 +47,5 @@ Note: MIST isochrone metallicities are defined in terms of [Fe/H] (not Z)
 
 * getting only one isochrone
 ```python 
->>> r = ezmist.get_one_isochrones(1e7, 0.0, age_scale='linear')
+>>> r = ezmist.get_one_isochrone(1e7, 0.0, age_scale='linear')
 ```
